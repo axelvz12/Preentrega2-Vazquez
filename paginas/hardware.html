@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--Titulo y barra de navegacion-->
+    <header>
+        
+        <div class="titulo">
+            <h1>Valhalla</h1>
+        </div>
+        
+        <input type="checkbox" id="check">
+        <label for="check" class="mostrar-menu">
+            &#8801
+        </label>
+
+        <nav class="nav">
+            <a href="../index.html">Inicio</a>
+            <a href="hardware.html">Hardware</a>
+            <a href="perifericos.html">Perifericos</a>
+            <a href="monitores.html">Monitores</a>
+            <a href="notebooks.html">Notebooks</a>
+            <a href="#">Ver todo</a>
+            <label for="check" class="cerrar-menu">
+                &#215
+            </label>
+        </nav>
+    </header>
+
+    <!--Filtros de la pagina-->
+        <div class="container-filtros">
+
+            <input type="radio" id="Marca" name="categorias" value="Marca">
+            <input type="radio" id="Ordenar por" name="categorias" value="Ordenar por">
+            <input type="radio" id="Subcategorias" name="categorias" value="Subcategorias">
+
+            <div class="labels">
+                <label for="Marca">Marca</label>
+                <label for="Ordenar por">Ordenar por</label>
+                <label for="Subcategorias">Subcategorias</label>
+            </div>
+        </div>
+
+        <!--Estructura de la pagina-->
+        <div class="page-content">
+            <div class="product-container">
+                <h3>Procesador AMD Ryzen 5 5600G</h3>
+                <img src="../Imagenes/ryzen.png" alt="ryzen">
+                <h3>$113.000</h3>
+                <button class="button-add">Agregar</button>
+            </div>
+            
+            <div class="product-container">
+                <h3>Procesador AMD Ryzen 7 5700X</h3>
+                <img src="../Imagenes/Micro.PNG" alt="ryzen">
+                <h3>$187.000</h3>
+                <button class="button-add">Agregar</button>
+            </div>
+
+            <div class="product-container">
+                <h3>Procesador Intel Core I3 12100F</h3>
+                <img src="../Imagenes/Intel.png" alt="intel-core">
+                <h3>$95.000</h3>
+                <button class="button-add">Agregar</button>
+            </div>
+        </div>
+        
+        <!--Footer de la pagina-->
+        <footer>
+            <div class="container-footer">
+                <div class="box-footer">
+                    <div class="logo">
+                        <img src="../Imagenes/valhalla.png" alt="logo">
+                    </div>
+                </div>
+
+                <div class="box-footer">
+                    <h4>Contenido</h4>
+                    <a href="#">Nosotros</a>
+                    <a href="#">Novedades</a>
+                    <a href="#">Condicion de uso</a>
+                    <a href="#">Envios</a>
+                    <a href="#">Garantias y devoluciones</a>
+                    <a href="#">Contactenos</a>
+                    <a href="#">Terminos y condiciones</a>
+                    <a href="#">Politicas de privacidad</a>
+                </div>
+            </div>
+
+                <div class="contacto">
+                    <hr>
+                    <h3>Atencion al cliente</h3>
+                    <p>E-mail: ventas@valhalla.com</p>
+                    <p>Telefono: (011) 8498-5612</p>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>
