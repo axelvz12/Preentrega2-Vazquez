@@ -1,0 +1,48 @@
+header{
+    height: 100px;
+    background: #294674;
+    padding: 0 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo{
+    text-transform: uppercase;
+    color: black;
+    font-weight: 200;
+}
+.subtitulo{
+    margin-top: 20px;
+    color: #4682B4;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 200;
+}
+
+.nav a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.mostrar-menu, .cerrar-menu{
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    transition: 0.4s;
+}
+
+.mostrar-menu{
+    order: 1;
+}
+
+.nav a:hover, .mostrar-menu:hover, .cerrar-menu:hover{
+    background: black;
+}
+
+#check{
+    display: none;
+}

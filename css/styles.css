@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .mostrar-menu, .cerrar-menu {
+    display: block;
+  }
+  .nav {
+    position: fixed;
+    width: 90%;
+    height: 100vh;
+    background: #294674;
+    right: -100%;
+    top: 0;
+    text-align: center;
+    padding: 100px 0px;
+    z-index: 100;
+    transition: 0.8s;
+  }
+  .nav a {
+    display: block;
+    padding: 20px;
+  }
+  .cerrar-menu {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+  #check:checked ~ .nav {
+    right: 0;
+  }
+  .container-filtros {
+    width: 90%;
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+}
+header {
+  height: 100px;
+  background: #294674;
+  padding: 0 50px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titulo {
+  text-transform: uppercase;
+  color: black;
+  font-weight: 200;
+}
+
+.subtitulo {
+  margin-top: 20px;
+  color: #4682B4;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 200;
+}
+
+.nav a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.mostrar-menu, .cerrar-menu {
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+  transition: 0.4s;
+}
+
+.mostrar-menu {
+  order: 1;
+}
+
+.nav a:hover, .mostrar-menu:hover, .cerrar-menu:hover {
+  background: black;
+}
+
+#check {
+  display: none;
+}
+
+/*Footer*/
+footer {
+  width: 100%;
+  padding: 50px 0px;
+}
+
+.container-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.box-footer {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+.box-footer h4 {
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+.box-footer a {
+  text-decoration: none;
+  margin-top: 10px;
+  font-weight: 600;
+}
+.box-footer .logo img {
+  width: 180px;
+}
+
+.contacto {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 0px 40px;
+}
+.contacto p {
+  margin-top: 20px;
+  color: black;
+}
+
+.imagenes {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 35px;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 0px 10px 5px;
+  cursor: pointer;
+}
+
+.p__texto {
+  font-weight: 400;
+}
+
+input[type=radio] {
+  display: none;
+}
+
+.container-filtros {
+  width: 100%;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.container-filtros label {
+  padding: 6px 40px;
+  margin: 5px;
+  font-size: 20px;
+  background: #e2e2e2;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/*Boton agregar*/
+.button-add {
+  border: none;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 8px;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  border: 2px solid #4caf50;
+  transition-duration: 0.4s;
+}
+.button-add:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+.page-content {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.product-container {
+  margin: 15px;
+  padding: 2px 16px;
+  position: relative;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+.product-container:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.product-container img {
+  width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  .mostrar-menu, .cerrar-menu {
+    display: block;
+  }
+  .nav {
+    position: fixed;
+    width: 90%;
+    height: 100vh;
+    background: #294674;
+    right: -100%;
+    top: 0;
+    text-align: center;
+    padding: 100px 0px;
+    z-index: 100;
+    transition: 0.8s;
+  }
+  .nav a {
+    display: block;
+    padding: 20px;
+  }
+  .cerrar-menu {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+  #check:checked ~ .nav {
+    right: 0;
+  }
+  .container-filtros {
+    width: 90%;
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .mostrar-menu, .cerrar-menu {
+    display: block;
+  }
+  .nav {
+    position: fixed;
+    width: 90%;
+    height: 100vh;
+    background: #294674;
+    right: -100%;
+    top: 0;
+    text-align: center;
+    padding: 100px 0px;
+    z-index: 100;
+    transition: 0.8s;
+  }
+  .nav a {
+    display: block;
+    padding: 20px;
+  }
+  .cerrar-menu {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+  #check:checked ~ .nav {
+    right: 0;
+  }
+  .container-filtros {
+    width: 90%;
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

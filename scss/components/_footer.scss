@@ -1,0 +1,64 @@
+/*Footer*/
+footer{
+    width: 100%;
+    padding: 50px 0px;
+    
+}
+
+.container-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.box-footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+
+    & h4{
+        margin-bottom: 30px;
+        font-weight: 700;
+    }
+
+    & a{
+        text-decoration: none;
+        margin-top: 10px;
+        font-weight: 600;
+    }
+
+    & .logo img{
+        width: 180px;
+    }
+}
+
+.contacto{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+
+    & p{
+        margin-top: 20px;
+        color: black;
+    }
+}
+
+.imagenes{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 35px;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 10px 5px;
+    cursor: pointer;
+}
+
+.p__texto{
+    font-weight: 400;
+}

@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+@media screen and (max-width: 768px){
+    .mostrar-menu, .cerrar-menu{
+        display: block;
+    }
+
+    .nav{
+        position: fixed;
+        width: 90%;
+        height: 100vh;
+        background: #294674;
+        right: -100%;
+        top: 0;
+        text-align: center;
+        padding: 100px 0px;
+        z-index: 100;
+        transition: 0.8s;
+    }
+
+    .nav a{
+        display: block;
+        padding: 20px;
+    }
+
+    .cerrar-menu{
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+
+    #check:checked ~ .nav{
+        right: 0;
+    }
+
+    .container-filtros{
+        width: 90%;
+        margin: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+
+}
