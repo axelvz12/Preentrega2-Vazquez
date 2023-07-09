@@ -9,6 +9,12 @@ body {
   background-color: white;
 }
 
+.p__texto {
+  padding: 10px;
+  font-weight: 200px;
+  text-align: center;
+}
+
 @media screen and (max-width: 768px) {
   .mostrar-menu, .cerrar-menu {
     display: block;
@@ -45,6 +51,7 @@ body {
     margin-top: 20px;
   }
 }
+
 header {
   height: 100px;
   background: #294674;
@@ -176,6 +183,12 @@ input[type=radio] {
   cursor: pointer;
 }
 
+.dropdown-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 /*Boton agregar*/
 .button-add {
   border: none;
@@ -196,7 +209,7 @@ input[type=radio] {
 .page-content {
   margin: 20px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
@@ -213,7 +226,8 @@ input[type=radio] {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 .product-container img {
-  width: 300px;
+  width: 200px;
+  align-items: center;
 }
 
 @media screen and (max-width: 768px) {

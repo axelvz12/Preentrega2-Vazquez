@@ -9,6 +9,12 @@ body{
     background-color: white;
 }
 
+.p__texto{
+    padding: 10px;
+    font-weight: 200px;
+    text-align: center;
+}
+
 @media screen and (max-width: 768px){
     .mostrar-menu, .cerrar-menu{
         display: block;
