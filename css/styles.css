@@ -23,7 +23,7 @@ body {
     position: fixed;
     width: 90%;
     height: 100vh;
-    background: #294674;
+    background: white;
     right: -100%;
     top: 0;
     text-align: center;
@@ -54,7 +54,7 @@ body {
 
 header {
   height: 100px;
-  background: #294674;
+  background: white;
   padding: 0 50px;
   color: white;
   display: flex;
