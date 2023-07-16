@@ -1,3 +1,5 @@
+$color1: black;
+
 header{
     height: 100px;
     background: #294674;
@@ -10,7 +12,7 @@ header{
 
 .titulo{
     text-transform: uppercase;
-    color: black;
+    color: $color1;
     font-weight: 200;
 }
 .subtitulo{
@@ -40,7 +42,7 @@ header{
 }
 
 .nav a:hover, .mostrar-menu:hover, .cerrar-menu:hover{
-    background: black;
+    background: $color1;
 }
 
 #check{
